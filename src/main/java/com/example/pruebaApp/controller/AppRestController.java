@@ -20,7 +20,7 @@ public class AppRestController {
 //		} catch (InterruptedException e) {
 //			e.printStackTrace();	
 //		}
-		Greeting greeting = new Greeting(0, "Hello World");
+		Greeting greeting = new Greeting(0, "Hello Ibis");
 		
 		JsonNode json = objectMapper.valueToTree(greeting);
 		
